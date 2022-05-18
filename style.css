@@ -93,6 +93,62 @@ html {
   margin-bottom: 1rem;
 }
 
+.container-traco {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  justify-content: center;
+}
+
+.traco {
+  background-color: #e92b8a;
+  width: 3rem;
+  height: 3px;
+  border-radius: 5px;
+}
+
+.traco-pequeno {
+  background-color: #e92b8a;
+  width: 0.5rem;
+  height: 3px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.traco-minusculo {
+  background-color: #e92b8a;
+  width: 0.2rem;
+  height: 3px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+ 
+.estagio-globo, .estagio-buser {
+	color: #4f6068;
+}
+
+.estagio-buser {
+	margin-bottom: 1rem;
+}
+
+.imagem-experiencia{
+	width: 20px;
+	height: 20px;
+  filter: invert(100%);
+}
+
+.titulo-buser, .titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp, .titulo-busertech {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  font-weight: 700;
+}
+
+.data {
+	font-size: 0.8em;
+	color: #43bfa6;
+	margin: 2px 0 10px 0;
+}
 .grupo-imagens-projetos {
   display: flex;
   flex-wrap: wrap;
@@ -102,6 +158,10 @@ html {
 .imagens-projetos {
   width: 8rem;
   padding: 0.1rem;
+}
+
+.margem {
+  margin-top: 3rem;
 }
 
 .area-3 {
