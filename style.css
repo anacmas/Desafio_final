@@ -10,14 +10,17 @@ html {
 
 .cabecalho {
   width: 100%;
-  background-image: linear-gradient(to bottom, #F9F8FF 0, #F9F8FF 70%, #9EBDE2 30%);
+  background-image: linear-gradient(to bottom, #F9F8FF 0, #f0cdf7 75%, #9EBDE2 25%);
+  padding-bottom: 2rem;
 }
+
+
 
 .foto-nome {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .sobre-mim {
@@ -42,12 +45,17 @@ html {
 .texto-sobre-mim {
   text-align: center;
   line-height: 1.2rem;
-  margin-top: 1.8rem;
+  margin-top: 1.3rem;
+  color: var(--azul-escuro);
 }
 
 .texto-sobre-mim p:first-child {
   margin-bottom: 0.4rem;
 }
+hr {
+  opacity: 30%;
+}
+
 
 .grupo-linguagens {
   display: flex;
@@ -55,27 +63,41 @@ html {
 }
 
 .fundo-linguagem {
-  background-color: #F9F8FF;
-  border-radius: 7px;
+  background-color: #f0cdf7;
+  border-radius: 3px;
   padding: 0.5rem;
+  box-shadow: 0px 1px #8faed4;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 0.7rem;
+  align-items: center;
+  color: white;
 }
 
 .linguagem {
-  filter: invert(11%);
   width: 3rem;
   height: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.outras-tecnologias {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.9em;
+  color: #e7ebf8;
+  margin-top: 1.4rem;
 }
 
 .grupo-imagens-redes {
   display: flex;
   flex-direction: row;
-  padding: 2rem 5.5rem 1.5rem 5.5rem;
+  padding: 0 3rem;
   justify-content: space-between;
 }
 
 .imagens-redes {
   width: 1.7rem;
-  filter: invert(100%)
+  opacity: 20%;
 }
 
 .area-2 {
@@ -101,14 +123,14 @@ html {
 }
 
 .traco {
-  background-color: #e92b8a;
+  background-color: #71c07c;
   width: 3rem;
   height: 3px;
   border-radius: 5px;
 }
 
 .traco-pequeno {
-  background-color: #e92b8a;
+  background-color: #71c07c;
   width: 0.5rem;
   height: 3px;
   border-radius: 5px;
@@ -116,38 +138,11 @@ html {
 }
 
 .traco-minusculo {
-  background-color: #e92b8a;
+  background-color: #71c07c;
   width: 0.2rem;
   height: 3px;
   border-radius: 5px;
   margin-left: 5px;
-}
- 
-.estagio-globo, .estagio-buser {
-	color: #4f6068;
-}
-
-.estagio-buser {
-	margin-bottom: 1rem;
-}
-
-.imagem-experiencia{
-	width: 20px;
-	height: 20px;
-  filter: invert(100%);
-}
-
-.titulo-buser, .titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp, .titulo-busertech {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-  font-weight: 700;
-}
-
-.data {
-	font-size: 0.8em;
-	color: #43bfa6;
-	margin: 2px 0 10px 0;
 }
 .grupo-imagens-projetos {
   display: flex;
@@ -160,8 +155,78 @@ html {
   padding: 0.1rem;
 }
 
+ 
+.estagio-globo, .estagio-buser {
+	color: #4f6068;
+}
+
+.estagio-globo {
+  margin-top:  2rem;
+}
+
+.estagio-buser {
+	margin-bottom: 2rem;
+}
+
+.imagem-experiencia{
+	width: 20px;
+	height: 20px;
+}
+
+.titulo-buser, .titulo-globo, .titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp, .titulo-busertech {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  font-weight: 400;
+}
+
+.titulo-terciario {
+  margin-left: 1rem;
+  color: #4f6068;
+}
+
+.data {
+	font-size: 0.8em;
+	color: #43bfa6;
+	margin: 0.5rem 0 0.7rem 0;
+}
+
+.container-texto p {
+  margin-bottom: 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
 .margem {
   margin-top: 3rem;
+}
+
+b {
+	font-size: 15px;
+	color: #4f6068;
+  font-weight: 800;
+}
+
+.titulo-boticario img {
+	width: 40px;
+	height: 40px;
+	opacity: 80%;
+}
+
+.titulo-unesp img {
+	width: 60px;
+	height: 20px;
+	opacity: 80%;
+}
+
+.titulo-etec, .titulo-unesp, .titulo-boticario, .titulo-unifesp, .titulo-busertech {
+	margin-top: 30px;
+}
+
+.titulo-etec img, .titulo-unifesp img {
+	width: 48px;
+	height: 20px;
+	opacity: 80%;
 }
 
 .area-3 {
