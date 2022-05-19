@@ -205,6 +205,8 @@ b {
 	font-size: 15px;
 	color: #4f6068;
   font-weight: 800;
+  fill: none;
+  
 }
 
 .titulo-boticario img {
