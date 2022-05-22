@@ -150,12 +150,24 @@ hr {
   justify-content: center;
 }
 
-.imagens-projetos {
+.meu-corretor {
   width: 8rem;
+  height: 8rem;
   padding: 0.1rem;
-}
+  background: linear-gradient(to bottom, #ff01d538, rgba(253, 78, 241, 0.507)),
+      url("assets/meucorretor.png");
+  background-size: 8rem;
+} 
 
- 
+.calculadora {
+  width: 8rem;
+  height: 8rem;
+  padding: 0.1rem;
+  background: linear-gradient(to bottom, #ff01d538, rgba(253, 78, 241, 0.507)),
+      url("assets/calculadoraimc.png");
+  background-size: 8rem;
+} 
+
 .estagio-globo, .estagio-buser {
 	color: #4f6068;
 }
