@@ -1,8 +1,10 @@
 :root {
   --roboto-regular: 'Roboto', sans-serif;
   --roboto-titulos: 'Roboto Mono', monospace;
-  --azul-escuro: #0d225a;
+  --azul-escuro: #173074;
+  --cor-tracos: #7bbeeb;
 }
+
 
 html {
   font-family: var(--roboto-regular);
