@@ -26,7 +26,7 @@ html {
 }
 
 .sobre-mim {
-  padding: 2rem 1.5rem;
+  padding: 3rem 1.5rem 2rem;
   align-items: center;
 }
 
@@ -117,10 +117,41 @@ hr {
   background-color: #e7ebf8;
 }
 
-.projetos,
+.tecnologias, .projetos,
 .experiencia,
 .formacao {
   padding: 1.5rem;
+}
+
+.tecnologias {
+  background-color: #f1f3fa;
+}
+
+.programacao {
+  margin: 1rem 0;
+}
+
+.programacao_grupo1, .programacao_grupo2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.programacao_grupo1 {
+  margin-bottom: 3rem;
+}
+
+.grupo-imagem-legenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #a0adb9;
+}
+
+.imagens-programacao {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.4rem;
 }
 
 .experiencia {
@@ -186,6 +217,8 @@ hr {
   color: rgb(255, 255, 255);
   text-decoration: none;
   text-transform: uppercase;
+  margin: 0.5rem;
+  border-radius: 5px;
 }
 
 .propriedades-img-projetos:hover {
