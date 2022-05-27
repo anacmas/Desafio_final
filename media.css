@@ -1,0 +1,45 @@
+@media (min-width: 467px) {
+  .foto-nome {
+      justify-content: space-around;
+      padding: 0 20%;
+  }
+
+  .btn-inicio {
+    width: 50px;
+    height: 50px;
+  }
+
+  .container-titulo-data {
+    padding: 1% 0;
+  }
+
+}
+
+@media (min-width: 780px) {
+  
+    .grupo-imagens-redes {
+      padding: 0 20%;
+    }
+
+    .experiencia, .formacao {
+        padding: 1.5rem 10rem 1.5rem;
+    }
+
+    .btn-inicio {
+      width: 60px;
+      height: 60px;
+  }
+}
+
+
+@media (min-width: 1222px) {
+  html {
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #1d2761, #1d3561, #1f5a75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
+  }
+}
