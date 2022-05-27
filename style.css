@@ -79,12 +79,12 @@ hr {
 
 .social:hover {
   opacity: 60%;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .social:active {
   opacity: 20%;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 .outras-tecnologias {
@@ -284,18 +284,18 @@ hr {
 
 .enzo {
   background: linear-gradient(to bottom, #0c2b5a4e, #0725524e, rgba(18, 36, 70, 0.507)),
-    url("assets/enzo.png");
+    url("assets/pg-pessoal-1.png");
   background-size: 8rem;
 }
 
 .enzo:hover {
-  background: url("assets/enzo.png");
+  background: url("assets/pg-pessoal-1.png");
   background-size: 8rem;
 }
 
 .enzo:active {
   opacity: 80%;
-  background: url("assets/enzo.png");
+  background: url("assets/pg-pessoal-1.png");
   background-size: 8rem;
 }
 
