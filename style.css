@@ -5,10 +5,6 @@
   --cor-tracos: #7bbeeb;
 }
 
-.c-blue-esc {
-  color: var(--azul-escuro);
-}
-
 html {
   font-family: var(--roboto-regular);
   scroll-behavior: smooth;
@@ -20,6 +16,11 @@ html {
   padding-bottom: 2rem;
 }
 
+.sobre-mim {
+  padding: 3rem 1.5rem 2rem;
+  align-items: center;
+}
+
 .foto-nome {
   display: flex;
   align-items: center;
@@ -27,10 +28,6 @@ html {
   margin-bottom: 1.2rem;
 }
 
-.sobre-mim {
-  padding: 3rem 1.5rem 2rem;
-  align-items: center;
-}
 
 .foto-ana {
   width: 6rem;
@@ -45,6 +42,9 @@ html {
   text-align: center;
 }
 
+.azul-escuro {
+  color: var(--azul-escuro);
+}
 
 .texto-sobre-mim {
   text-align: center;
@@ -58,6 +58,13 @@ html {
 
 hr {
   opacity: 30%;
+}
+
+.grupo-imagens-redes {
+  display: flex;
+  flex-direction: row;
+  padding: 0 3rem;
+  justify-content: space-between;
 }
 
 .fundo-sociais {
@@ -87,77 +94,16 @@ hr {
   transition: 0.3s;
 }
 
-.outras-tecnologias {
-  display: flex;
-  justify-content: space-around;
-  font-size: 0.9em;
-  color: #e7ebf8;
-  margin-top: 1.4rem;
-}
-
-.grupo-imagens-redes {
-  display: flex;
-  flex-direction: row;
-  padding: 0 3rem;
-  justify-content: space-between;
-}
-
-.imagens-redes {
-  width: 1.7rem;
-  opacity: 20%;
-}
-
-.imagens-redes:hover {
-  opacity: 30%;
-  transition: 0.3s;
-}
-
-.imagens-redes:active {
-  transition: 0.3s;
-  opacity: 40%;
-}
-
 .area-2 {
   background-color: #e7ebf8;
-}
-
-.titulos-padding {
-  padding: 1.5rem;
 }
 
 .tecnologias {
   background-color: #f1f3fa;
 }
 
-.programacao {
-  margin: 1rem 0;
-}
-
-.programacao-grupo {
-  display: flex;
-  justify-content: space-around;
-}
-
-.grupo1 {
-  margin-bottom: 3rem;
-}
-
-.grupo-imagem-legenda {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 0.8rem;
-  color: #a0adb9;
-}
-
-.imagens-programacao {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-bottom: 0.4rem;
-}
-
-.experiencia {
-  background-color: #f1f3fa;
+.titulos-padding {
+  padding: 1.5rem;
 }
 
 .titulo-secundario {
@@ -168,12 +114,6 @@ hr {
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 2rem;
-}
-
-.projetos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .container-traco {
@@ -204,6 +144,40 @@ hr {
   height: 3px;
   border-radius: 10px;
   margin-left: 4px;
+}
+
+
+.programacao {
+  margin: 1rem 0;
+}
+
+.programacao-grupo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grupo1 {
+  margin-bottom: 3rem;
+}
+
+.grupo-imagem-legenda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #a0adb9;
+}
+
+.imagens-programacao {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .grupo-imagens-projetos {
@@ -367,30 +341,29 @@ hr {
   background-size: 8rem;
 }
 
-
-.estagio-globo,
-.estagio-buser {
-  color: #4f6068;
-}
-
-.estagio-globo {
-  margin-top: 2rem;
+.experiencia {
+  background-color: #f1f3fa;
 }
 
 .estagio-buser {
   margin-bottom: 2rem;
 }
 
-.imagem-experiencia {
-  width: 20px;
-  height: 20px;
+.estagio-buser, .estagio-globo {
+  color: #4f6068;
 }
+
 
 .titulo-xp {
   display: flex;
   flex-direction: row;
   align-items: center;
   font-weight: 400;
+}
+
+.imagem-experiencia {
+  width: 20px;
+  height: 20px;
 }
 
 .titulo-terciario {
@@ -410,10 +383,8 @@ hr {
   line-height: 1rem;
 }
 
-b {
-  font-size: 15px;
-  color: #4f6068;
-  font-weight: 800;
+.estagio-globo {
+  margin-top: 2rem;
 }
 
 .titulo-boticario img {
@@ -430,6 +401,12 @@ b {
 
 .titulo-formacao {
   margin-top: 30px;
+}
+
+b {
+  font-size: 15px;
+  color: #4f6068;
+  font-weight: 800;
 }
 
 .titulo-etec img,
@@ -497,27 +474,6 @@ b {
   margin-bottom: 0.8rem;
 }
 
-.btn-inicio {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  background-color: #f0cdf798;
-  height: 40px;
-  border-radius: 30px;
-  font-size: 2rem;
-  text-align: center;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  z-index: 1;
-  text-decoration: none;
-}
-
-.btn-inicio:hover {
-  transition: 0.3s;
-  background-color: #7bbeeb;
-}
 
 .fa-angle-up:before {
   content: "\f106";
@@ -542,3 +498,24 @@ b {
   color: #0b725d;
 }
 
+.btn-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  background-color: #f0cdf798;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 2rem;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.btn-inicio:hover {
+  transition: 0.3s;
+  background-color: #7bbeeb;
+}
