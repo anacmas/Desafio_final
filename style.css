@@ -523,10 +523,14 @@ b {
   content: "\f106";
 }
 
-.copyright {
-  padding-bottom: 2rem;
+.copyright, .copyright-icons8 {
+  padding-bottom: 1rem;
   font-size: 0.7rem;
   text-decoration: none;
+}
+
+.copyright-icons8 {
+  padding-bottom: 2rem;
 }
 
 .link-copyright:hover {
